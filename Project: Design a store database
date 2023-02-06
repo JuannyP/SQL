@@ -10,5 +10,10 @@ INSERT into boutique values (3,"shirts",20,30,50);
 Insert into boutique values(4,"socks",5,10,15);
 insert into boutique values(5,"caps",10,3,21);
 
+#I ordered the data by ascending price.
+
 select item, price from boutique ORDER BY price;
+
+#Then I  used an agreggated function to calculate the average amount of items sold in boutique.
+
 select AVG (sold) from boutique;
