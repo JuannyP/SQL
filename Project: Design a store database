@@ -1,3 +1,8 @@
+# For this project, I created a table to practice ORDER BY and AVG commands.
+# The table has made up data as if it was an operating boutique.
+# I performed analytics on the data using SQL.
+
+
 CREATE table boutique (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, available INTEGER, sold INTEGER);
 INSERT into boutique VALUES (1,"dresses",15, 10,30);
 INSERT into boutique Values (2,"skirts",10,25,15);
