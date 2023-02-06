@@ -1,0 +1,9 @@
+CREATE table boutique (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, available INTEGER, sold INTEGER);
+INSERT into boutique VALUES (1,"dresses",15, 10,30);
+INSERT into boutique Values (2,"skirts",10,25,15);
+INSERT into boutique values (3,"shirts",20,30,50);
+Insert into boutique values(4,"socks",5,10,15);
+insert into boutique values(5,"caps",10,3,21);
+
+select item, price from boutique ORDER BY price;
+select AVG (sold) from boutique;
